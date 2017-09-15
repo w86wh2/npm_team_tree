@@ -1,10 +1,14 @@
 {
-  "name": "vue-team-tree",
-  "version": "1.0.0",
+  "name": "vue_team_tree",
+  "version": "1.0.3",
   "description": "a company_team for vue",
-  "main": "index.js",
+  "main": "dist/vue_team_tree.js",
   "scripts": {
     "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w86wh2/npm_team_tree.git"
   },
   "keywords": [
     "tree",
