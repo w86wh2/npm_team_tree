@@ -9,7 +9,16 @@
 <body>
     <div class="container" style="width:100%;height:100%">
         <vue_team_tree
+            :tree-data="gccList"
+            @handle-click-node="getNodeId"
+    >
+
+    </vue_team_tree>
+        <br /><br /><br />
+        <hr/>
+        <vue_team_tree
                 :tree-data="gccList"
+                :add_next="true"
                 @handle-click-node="getNodeId"
         >
 

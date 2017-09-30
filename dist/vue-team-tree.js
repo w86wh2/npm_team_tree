@@ -10453,7 +10453,7 @@ exports = module.exports = __webpack_require__(5)(undefined);
 
 
 // module
-exports.push([module.i, "\n.tree_data_container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.tree_data_container ul {\n    list-style: none;\n}\n.tree_data_container .strt-wrap {\n    width: 100000px;\n    margin: 10px;\n    cursor: move;\n}\n.tree_data_container .strt-block {\n    float: left;\n}\n.tree_data_container .strt-part {\n    text-align: center;\n    float: left;\n    position: relative;\n}\n.tree_data_container .strt-part .line-v {\n    position: relative;\n    height: 18px;\n    width: 100%;\n}\n.tree_data_container .strt-part .line-v span {\n    display: block;\n    background: #ccc;\n    position: absolute;\n    top: 0;\n    font-size: 0;\n    line-height: 1px;\n    width: 1px;\n    height: 18px;\n    left: 50%;\n}\n.tree_data_container .strt-part .line-h {\n    height: 1px;\n    display: block;\n    background: #ccc;\n    position: absolute;\n    top: 0;\n    font-size: 0;\n}\n.tree_data_container .strt-part .line-h-l {\n    width: 100%;\n    left: 0;\n}\n.tree_data_container .strt-part .line-h-s {\n    width: 50%;\n    left: 0;\n}\n.tree_data_container .strt-part .line-h-o {\n    width: 50%;\n    right: 0;\n}\n.tree_data_container .scroll-area {\n    width: 100%;\n    height: 270px;\n    background: #fef8f0;\n    max-width: 300%;\n}\n.tree_data_container .scroll-area .scroll-me {\n      min-width: 1700px;\n      min-height: 10px;\n}\n.tree_data_container .nodeItem_title {\n    height: 24px;\n    line-height: 24px;\n    background: #38acee;\n    color: #fff;\n    display: inline-block;\n    padding: 5px 40px;\n    margin: 0 10px;\n}\n.tree_data_container .nodeItem {\n    position: relative;\n    height: 24px;\n    line-height: 24px;\n    /*border:1px solid red;*/\n    background: #38acee;\n    color: #fff;\n    display: inline-block;\n    padding: 5px 20px;\n    margin: 0 10px;\n}\n.tree_data_container .nodeItem:after {\n      content: '';\n      display: block;\n      position: absolute;\n      /*background:#319edc;*/\n      width: 50%;\n      height: 10px;\n      top: 0;\n      left: 0;\n      z-index: 1;\n      -webkit-transform: skew(90deg, 90deg);\n              transform: skew(90deg, 90deg);\n      /*border-left: 50px solid transparent;*/\n      /*border-right: 50px solid transparent;*/\n      /*border-bottom: 5px solid #319edc;*/\n}\n.tree_data_container .nodeItem.active {\n      background: #f56e6d;\n}\n", ""]);
+exports.push([module.i, "\nul {\n  list-style: none;\n}\n.tree_data_container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.tree_data_container .strt-wrap {\n    width: 100000px;\n    margin: 10px;\n    cursor: move;\n}\n.tree_data_container .strt-block {\n    float: left;\n}\n.tree_data_container .strt-part {\n    text-align: center;\n    float: left;\n    position: relative;\n}\n.tree_data_container .strt-part .line-v {\n    position: relative;\n    height: 18px;\n    width: 100%;\n}\n.tree_data_container .strt-part .line-v span {\n    display: block;\n    background: #ccc;\n    position: absolute;\n    top: 0;\n    font-size: 0;\n    line-height: 1px;\n    width: 1px;\n    height: 18px;\n    left: 50%;\n}\n.tree_data_container .strt-part .line-h {\n    height: 1px;\n    display: block;\n    background: #ccc;\n    position: absolute;\n    top: 0;\n    font-size: 0;\n}\n.tree_data_container .strt-part .line-h-l {\n    width: 100%;\n    left: 0;\n}\n.tree_data_container .strt-part .line-h-s {\n    width: 50%;\n    left: 0;\n}\n.tree_data_container .strt-part .line-h-o {\n    width: 50%;\n    right: 0;\n}\n.tree_data_container .scroll-area {\n    width: 100%;\n    height: 270px;\n    background: #fef8f0;\n    max-width: 300%;\n}\n.tree_data_container .scroll-area .scroll-me {\n      min-width: 1700px;\n      min-height: 10px;\n}\n.tree_data_container .nodeItem_title {\n    height: 24px;\n    line-height: 24px;\n    /*background:#38acee;*/\n    color: #fff;\n    display: inline-block;\n    padding: 5px 40px;\n    margin: 0 10px;\n}\n.tree_data_container .nodeItem {\n    position: relative;\n    height: 24px;\n    line-height: 24px;\n    /*border:1px solid red;*/\n    background: #38acee;\n    color: #fff;\n    display: inline-block;\n    padding: 5px 20px;\n    margin: 0 10px;\n}\n.tree_data_container .nodeItem:after {\n      content: '';\n      display: block;\n      position: absolute;\n      /*background:#319edc;*/\n      width: 50%;\n      height: 10px;\n      top: 0;\n      left: 0;\n      z-index: 1;\n      -webkit-transform: skew(90deg, 90deg);\n              transform: skew(90deg, 90deg);\n      /*border-left: 50px solid transparent;*/\n      /*border-right: 50px solid transparent;*/\n      /*border-bottom: 5px solid #319edc;*/\n}\n.tree_data_container .nodeItem.active {\n      background: #f56e6d;\n}\n.tree_data_container .addButton {\n    background: #e9e9e9;\n    padding: 5px 40px;\n}\n", ""]);
 
 // exports
 
@@ -11179,98 +11179,127 @@ module.exports = function normalizeComponent (
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-    name: 'vue_team_tree',
-    props: ['tree-data'],
-    components: {
-        'vue_scrollbar': __WEBPACK_IMPORTED_MODULE_0_vue2_scrollbar___default.a
-    },
-    data() {
-        return {};
-    },
-    computed: {
-        trans_data() {
-            let temp = this.treeData;
-            console.log(temp);
-            return this.initData(this.treeData);
-        }
-
-    },
-    //        watch:{
-    //            treeData(val){
-    //                let temp=val;
-    //                this.trans_data=this.initData(temp);
-    //            }
-    //        },
-    methods: {
-        initData(list = []) {
-            let temp = false;
-            list.map((item, key) => {
-                this.$set(item, '_expand', 1);
-                if (item.children.length && !temp) {
-                    this.$set(item, '_expand', 2);
-                    //如果只有一个子集需处理数据
-                    if (item.children.length === 1) {
-                        let name_f = item.name.length;
-                        let name_n = item.children[0].name.length;
-                        if (name_f > name_n) {
-                            let n = name_f - name_n;
-                            let nb = '';
-                            for (let i = 0; i < n; i++) {
-                                nb += '&nbsp;';
-                            }
-                            item.children[0].name = nb + item.children[0].name + nb;
-                        }
-                    }
-                    temp = true;
-                    this.initData(item.children);
-                }
-            });
-            return list;
-        },
-        changeStatus(list, ite, key) {
-            list.map(item => {
-                item._expand = 1;
-            });
-            if (ite.children.length === 0) {
-                ite._expand = 1;
-            } else {
-                ite._expand = 2;
-            }
-            this.$emit('handleClickNode', ite.id);
-            //如果只有一个子集需处理数据
-            if (ite.children.length === 1) {
-                let name_f = ite.name.length;
-                let name_n = ite.children[0].name.length;
-                if (name_f > name_n) {
-                    let n = name_f - name_n;
-                    let nb = '';
-                    for (let i = 0; i < n * 2; i++) {
-                        nb += '&nbsp;';
-                    }
-                    console.log(nb);
-                    ite.children[0].name = nb + ite.children[0].name + nb;
-                }
-            }
-        }
-
-    },
-    creared() {},
-    mounted() {
-        this.$nextTick(() => {
-            __WEBPACK_IMPORTED_MODULE_1_jquery___default()(function () {
-                var strtWrap = __WEBPACK_IMPORTED_MODULE_1_jquery___default()("#strtWrap");
-                strtWrap.draggable({
-                    cursor: "move",
-                    opacity: 1
-                });
-            });
-        });
+  name: 'vue_team_tree',
+  props: ['tree-data', 'add_next'],
+  components: {
+    'vue_scrollbar': __WEBPACK_IMPORTED_MODULE_0_vue2_scrollbar___default.a
+  },
+  data() {
+    return {};
+  },
+  computed: {
+    trans_data() {
+      let temp = this.treeData;
+      console.log(temp);
+      return this.initData(this.treeData);
     }
+
+  },
+  //        watch:{
+  //            treeData(val){
+  //                let temp=val;
+  //                this.trans_data=this.initData(temp);
+  //            }
+  //        },
+  methods: {
+    initData(list = []) {
+      let temp = false;
+      list.map((item, key) => {
+        this.$set(item, '_expand', false);
+        if (item.children.length && !temp) {
+          this.$set(item, '_expand', true);
+          //如果只有一个子集需处理数据
+          if (item.children.length === 1) {
+            let name_f = item.name.length;
+            let name_n = item.children[0].name.length;
+            if (name_f > name_n) {
+              let n = name_f - name_n;
+              let nb = '';
+              for (let i = 0; i < n; i++) {
+                nb += '&nbsp;';
+              }
+              item.children[0].name = nb + item.children[0].name + nb;
+            }
+          }
+          temp = true;
+          this.initData(item.children);
+        }
+      });
+      return list;
+    },
+    addNext(item) {
+      this.$emit('add_office', item);
+    },
+    changeStatus(list, ite, key) {
+      list.map(item => {
+        this.$set(item, '_expand', false);
+      });
+      this.$set(ite, '_expand', true);
+      this.$emit('handleClickNode', ite.id);
+
+      //如果只有一个子集需处理数据
+      if (ite.children.length === 1) {
+        let name_f = ite.name.length;
+        let name_n = ite.children[0].name.length;
+        if (name_f > name_n) {
+          let n = name_f - name_n;
+          let nb = '';
+          for (let i = 0; i < n * 2; i++) {
+            nb += '&nbsp;';
+          }
+          console.log(nb);
+          ite.children[0].name = nb + ite.children[0].name + nb;
+        }
+      }
+    }
+  },
+  creared() {},
+  mounted() {
+    this.$nextTick(() => {
+      __WEBPACK_IMPORTED_MODULE_1_jquery___default()(function () {
+        var strtWrap = __WEBPACK_IMPORTED_MODULE_1_jquery___default()("#strtWrap");
+        strtWrap.draggable({
+          cursor: "move",
+          opacity: 1
+        });
+      });
+    });
+  }
 });
 
 /***/ }),
@@ -12885,7 +12914,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     }, [_c('span', {
       staticClass: "nodeItem_title",
       class: {
-        'active': item._expand === 2 && item.children.length
+        'active': item._expand && item.children.length
       },
       domProps: {
         "innerHTML": _vm._s(item.name)
@@ -12897,23 +12926,28 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
       }
     }), _vm._v(" "), _c('div', {
       staticClass: "line-v"
-    }, [_c('span')]), _vm._v(" "), (item._expand === 2) ? _c('ul', {
+    }, [_c('span')]), _vm._v(" "), (item._expand) ? _c('ul', {
       staticClass: "strt-block"
-    }, _vm._l((item.children), function(item1, key1) {
+    }, [_vm._l((item.children), function(item1, key1) {
       return _c('li', {
         key: key1,
         staticClass: "strt-part"
-      }, [_c('span', {
+      }, [(_vm.add_next) ? _c('span', {
+        staticClass: "line-h",
+        class: {
+          'line-h-o': key1 === 0, 'line-h-l': (key1 > 0 && key1 <= (item.children.length - 1))
+        }
+      }) : _vm._e(), _vm._v(" "), (!_vm.add_next) ? _c('span', {
         staticClass: "line-h",
         class: {
           'line-h-o': key1 === 0, 'line-h-s': key1 === (item.children.length - 1), 'line-h-l': (key1 > 0 && key1 < (item.children.length - 1))
         }
-      }), _vm._v(" "), _c('div', {
+      }) : _vm._e(), _vm._v(" "), _c('div', {
         staticClass: "line-v"
       }, [_c('span')]), _vm._v(" "), _c('span', {
         staticClass: "nodeItem normal",
         class: {
-          'active': item1._expand === 2 && item1.children.length
+          'active': item1._expand && item1.children.length
         },
         domProps: {
           "innerHTML": _vm._s(item1.name)
@@ -12923,15 +12957,20 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
             _vm.changeStatus(item.children, item1, key1)
           }
         }
-      }), _vm._v(" "), (item1.children.length && item1._expand === 2) ? _c('div', {
+      }), _vm._v(" "), (item1.children.length && item1._expand) ? _c('div', {
         staticClass: "line-v"
-      }, [_c('span')]) : _vm._e(), _vm._v(" "), (item1._expand === 2) ? _c('ul', {
+      }, [_c('span')]) : _vm._e(), _vm._v(" "), (item1._expand) ? _c('ul', {
         staticClass: "strt-block"
-      }, _vm._l((item1.children), function(item2, key2) {
+      }, [_vm._l((item1.children), function(item2, key2) {
         return _c('li', {
           key: key2,
           staticClass: "strt-part"
-        }, [(item1.children.length !== 1) ? _c('span', {
+        }, [(item1.children.length !== 1 && _vm.add_next) ? _c('span', {
+          staticClass: "line-h",
+          class: {
+            'line-h-o': key2 === 0, 'line-h-l': (key2 > 0 && key2 < (item1.children.length))
+          }
+        }) : _vm._e(), _vm._v(" "), (item1.children.length !== 1 && !_vm.add_next) ? _c('span', {
           staticClass: "line-h",
           class: {
             'line-h-o': key2 === 0, 'line-h-s': key2 === (item1.children.length - 1), 'line-h-l': (key2 > 0 && key2 < (item1.children.length - 1))
@@ -12941,7 +12980,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
         }, [_c('span')]), _vm._v(" "), _c('span', {
           staticClass: "nodeItem normal",
           class: {
-            'active': item2._expand === 2 && item2.children.length
+            'active': item2._expand && item2.children.length
           },
           domProps: {
             "innerHTML": _vm._s(item2.name)
@@ -12951,15 +12990,20 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
               _vm.changeStatus(item1.children, item2, key2)
             }
           }
-        }), _vm._v(" "), (item2.children.length && item2._expand === 2) ? _c('div', {
+        }), _vm._v(" "), (item2.children.length && item2._expand) ? _c('div', {
           staticClass: "line-v"
-        }, [_c('span')]) : _vm._e(), _vm._v(" "), (item2._expand === 2) ? _c('ul', {
+        }, [_c('span')]) : _vm._e(), _vm._v(" "), (item2._expand) ? _c('ul', {
           staticClass: "strt-block"
-        }, _vm._l((item2.children), function(item3, key3) {
+        }, [_vm._l((item2.children), function(item3, key3) {
           return _c('li', {
             key: key3,
             staticClass: "strt-part"
-          }, [(item2.children.length !== 1) ? _c('span', {
+          }, [(_vm.add_next) ? _c('span', {
+            staticClass: "line-h",
+            class: {
+              'line-h-o': key3 === 0, 'line-h-l': (key3 > 0 && key3 <= (item2.children.length - 1))
+            }
+          }) : _vm._e(), _vm._v(" "), (item2.children.length !== 1 && !_vm.add_next) ? _c('span', {
             staticClass: "line-h",
             class: {
               'line-h-o': key3 === 0, 'line-h-s': key3 === (item2.children.length - 1), 'line-h-l': (key3 > 0 && key3 < (item2.children.length - 1))
@@ -12969,7 +13013,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
           }, [_c('span')]), _vm._v(" "), _c('span', {
             staticClass: "nodeItem normal",
             class: {
-              'active': item3._expand === 2 && item3.children.length
+              'active': item3._expand && item3.children.length
             },
             domProps: {
               "innerHTML": _vm._s(item3.name)
@@ -12979,12 +13023,57 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
                 _vm.changeStatus(item2.children, item3, key3)
               }
             }
-          }), _vm._v(" "), (item3.children.length && item3._expand === 2) ? _c('div', {
+          }), _vm._v(" "), (item3.children.length && item3._expand) ? _c('div', {
             staticClass: "line-v"
           }, [_c('span')]) : _vm._e()])
-        })) : _vm._e()])
-      })) : _vm._e()])
-    })) : _vm._e()])
+        }), _vm._v(" "), (_vm.add_next && item2.children.length > 0) ? _c('li', {
+          staticClass: "strt-part"
+        }, [_c('span', {
+          staticClass: "line-h line-h-s"
+        }), _vm._v(" "), _c('div', {
+          staticClass: "line-v"
+        }, [_c('span')]), _vm._v(" "), _c('span', {
+          staticClass: "nodeItem addButton",
+          on: {
+            "click": function($event) {
+              _vm.addNext(item2)
+            }
+          }
+        }, [_c('i', {
+          staticClass: "icon iconfont icon-xinzeng"
+        }, [_vm._v("+")])])]) : _vm._e()], 2) : _vm._e()])
+      }), _vm._v(" "), (_vm.add_next && item1.children.length > 0) ? _c('li', {
+        staticClass: "strt-part"
+      }, [_c('span', {
+        staticClass: "line-h line-h-s"
+      }), _vm._v(" "), _c('div', {
+        staticClass: "line-v"
+      }, [_c('span')]), _vm._v(" "), _c('span', {
+        staticClass: "nodeItem addButton",
+        on: {
+          "click": function($event) {
+            _vm.addNext(item1)
+          }
+        }
+      }, [_c('i', {
+        staticClass: "icon iconfont icon-xinzeng"
+      }, [_vm._v("+")])])]) : _vm._e()], 2) : _vm._e()])
+    }), _vm._v(" "), (_vm.add_next && item.children.length > 0) ? _c('li', {
+      staticClass: "strt-part"
+    }, [_c('span', {
+      staticClass: "line-h line-h-s"
+    }), _vm._v(" "), _c('div', {
+      staticClass: "line-v"
+    }, [_c('span')]), _vm._v(" "), _c('span', {
+      staticClass: "nodeItem addButton",
+      on: {
+        "click": function($event) {
+          _vm.addNext(item)
+        }
+      }
+    }, [_c('i', {
+      staticClass: "icon iconfont icon-xinzeng"
+    }, [_vm._v("+")])])]) : _vm._e()], 2) : _vm._e()])
   }))]), _vm._v(" "), _c('div', {
     staticClass: "clearfix"
   })])])], 1)
